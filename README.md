@@ -7,21 +7,14 @@ usado para criar rios artificiais, plantar em suas margens e limpar os resíduos
 
 O conceito básico do jogo se constroi por um mapa com vista de satélite, no qual várias ilhas de terra fértil, estas geradas aleatoriamente a cada jogatina, são gerenciadas pelo jogador em tempo real para cultivar, obtendo pontos e correndo contra o tempo, este que diminui a pontuação gradualmente. Uma cota de pontos é dada por cada partida e aumenta, caso o jogador vencer. Cada planta que o jogador crava ao solo se espalha, envelhece e eventualmente morre, fazendo com que o solo tenha que ser limpo a fim de ganhar mais pontos no próximo cultivo.
 
-# Controles: 
+## Controles: 
  
- Teclado 1~3:
- 
-   1:Seleciona a ferramenta Plantar;
-   
-   2:Seleciona a ferramenta Abrir água;
-   
-   Esta que remove a terra de um local, e caso este esteja em interseção com um corpo d'água,
-   se inunda.
-     
-   3:Seleciona a ferramenta Limpar terra.
+ ### Teclado 1~3:
+   1:Seleciona a ferramenta Plantar;<br/>
+   2:Seleciona a ferramenta Abrir água;<br/>  3:Seleciona a ferramenta Limpar terra.
 
-Cursor do Mouse:
+### Cursor do Mouse: Clicar em um ponto no mapa: Utiliza a ferramenta atual.
 
-Clicar em um ponto no mapa:
 
-Utiliza a ferramenta atual.
+## Créditos
+Programado inteiramente por mim, Victor Rodeghero, utilizando a biblioteca [p5.js](https://p5js.org/) e [p5-sound.js](https://p5js.org/reference/p5.sound/), além do aplicativo de computador [Audacity](https://www.audacityteam.org/), para compôr os efeitos sonoros presentes no jogo.
