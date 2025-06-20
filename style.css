@@ -1,7 +1,45 @@
 html, body {
   margin: 0;
   padding: 0;
+  background:#bbbbff;
 }
 canvas {
   display: block;
+  position:relative;
+  margin-right:0;
+  margin-left:auto;
+  z-index:1;
+}
+button
+{
+z-index:2;
+font-size:18px;
+padding:2px;
+}
+section
+{
+font-size:25px;
+font-family:"Roboto",sans-serif;
+z-index:0;
+position:absolute;
+margin-right:auto;
+margin-left:0;
+top:20px;
+height:100%;
+}
+h1
+{
+margin-left:5%;
+}
+
+p
+{
+margin-left:2%;
+width:40%;
+}
+p#nome
+{
+position:absolute;
+bottom:0;
+margin-left:3%;
 }
